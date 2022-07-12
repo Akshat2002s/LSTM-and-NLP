@@ -11,15 +11,15 @@ In the file titled "NLP-Model(Text Data)" You shall find an LSTM model which pre
 Standard tensorflow embeddings have been utilized along with stopwords in order to make sense of the text data.
 Do change the path of the csv file relative to your machine.
 
-******************************************************************************************************************************
+*****************************************************************************************************************************
 
 In the file titled "NLP-Model(IITQuestionDataset" you shall find an LSTM model which predicts the given classes.
 Do change the path of the csv file relative to your machine.
 
-******************************************************************************************************************************
+*****************************************************************************************************************************
 
 NOTE- CUDNN can't be utilized with recurrent dropouts. Make sure that the recurrent dropout is set to 0 for the LSTM layer.
 
 "model.add(LSTM(100, dropout=0.2, recurrent_dropout=0))"
 
-******************************************************************************************************************************
+*****************************************************************************************************************************
